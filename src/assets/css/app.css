@@ -1,0 +1,330 @@
+/*
+ *这是单独准备的个性化css，可以覆盖标准mui的css定义；
+ * 在实际项目开发时，建议为App单独写一个css文件，从而实现项目的自定义皮肤功能；
+ * 
+ * */
+/*content*/
+
+/*菲尼克斯主色系蓝*/
+
+/*按钮样式*/
+ /* .btn-phoenix {
+	color: white;
+	border-color: #24999C;
+	background-color: #24999C;
+}  */
+.el-button--danger
+{
+	background-color: red;
+}
+
+.title{
+	color: #24999C;
+	font-weight:800;
+	background-color: transparent;
+	font-size:18px ;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.header{
+	color: #24999C;
+	font-weight:800;
+	background-color: transparent;
+	font-size:16px ;
+}
+.body{
+	padding: 10px;
+}
+.headbar{
+	background-color:#24999C;
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 600;
+	padding-left: 10px;
+}
+.headbarline
+{
+	border-bottom: 3px solid #24999C;
+	color: #24999C;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 600;
+	padding-left: 10px;
+	margin-left: 5px;
+}
+.state{
+	font-size: 12px;
+	text-align: center;
+    display: inline-block;
+    padding: 3px 2px  3px 2px;
+    border-radius: 50px;
+	min-width: 40px;
+   
+}
+.blue{
+    color: #24999C;
+}
+.green{
+    color: #96BE0D;
+}
+.Green{
+    color: #fff;
+	background-color: #96BE0D;
+}
+.Blue{
+    color: #fff;
+	background-color: #24999C;
+}
+.Red{
+    color: #fff;
+	background-color: red;
+}
+.Yellow{
+    color: #fff;
+	background-color: yellow;
+}
+.Silver{
+    color: #fff;
+	background-color: silver;
+}
+.Purple{
+    color: #fff;
+	background-color: #C280FF;
+}
+
+
+/* 字体样式 */
+.text,.text .el-input__inner {
+    font-size: 15px;
+  }
+.textLarge,.textLarge .el-input__inner {
+    font-size: 18px;
+  }
+.textLarger,.textLarger .el-input__inner{
+    font-size: 20px;
+  }
+.item {
+    margin-bottom: 10px;
+  }
+
+
+/*居中显示*/
+.center,
+.align-center {
+	text-align: center !important;
+}
+.right,
+.align-right {
+	text-align: right !important;
+}
+
+::-webkit-scrollbar {
+		/*滚动条整体样式*/
+		width: 5px; /*高宽分别对应横竖滚动条的尺寸*/
+		height: 1px;
+	}
+	
+::-webkit-scrollbar-thumb {
+		/*滚动条里面小方块*/
+		border-radius: 5px;
+		box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+		background: #f9f9f9;
+	}
+	
+::-webkit-scrollbar-track {
+		/*滚动条里面轨道*/
+		box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+		border-radius: 5px;
+		background: #f9f9f9;
+	}
+	
+
+/* 表格头样式 */
+.el-table th{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+/* 表格分页样式 */
+.el-pagination button:disabled
+{
+	background-color:transparent;
+}
+.el-pagination .btn-next, .el-pagination .btn-prev
+{
+	background-color:transparent;
+}
+.openpage .el-dialog, .el-pager li
+{
+	background-color:transparent;
+}
+.el-pager, .el-pager li
+{
+	background-color:transparent;
+	color: #606266;
+}
+.el-pager li.active
+{
+	color: #24999C;
+}
+.el-pagination
+{
+	text-align: center;
+	background-color:#f5f7fa;
+    border:1px solid #EBEEF5;
+    border-top-style:none;
+}
+/* 表格分页样式 */
+
+
+
+
+
+
+
+
+/* 弹出页面样式begin */
+.openpage {
+	background-color:#fff
+}
+.openpage .el-dialog--center .el-dialog__body,.el-dialog__header
+{
+	padding: 0px;
+
+}
+/* 弹出页面样式end */
+
+
+
+/* 居右显示begin */
+.pull-right
+{
+	position: absolute;
+	right: 10px;
+	line-height: 40px;
+	font-weight: 800;
+}
+/* 居右显示end */
+
+/* 步骤样式重写 start*/
+.step .el-step__icon.is-text {
+    border-width: 1px;
+    width: 40px;
+    color: white;
+}
+
+
+.step .el-step__head.is-process,.el-step__title.is-process {
+    border-color: #70b603;
+    color: #70b603;
+	font-size: 15px;
+}
+.step .el-step__head.is-process .el-step__icon.is-text {
+    background-color: #70b603;
+}
+
+
+
+.step .el-step__head.is-finish,
+.step .el-step__title.is-finish {
+    border-color: #24999c;
+    color: #24999c;
+	font-size: 15px;
+}
+.step .el-step__head.is-finish .el-step__icon.is-text {
+    background-color: #24999c;
+}
+
+.step .el-step__head.is-wait,
+.step .el-step__title.is-wait {
+    border-color: #dcdcdc;
+    color: #dcdcdc;
+	font-size: 15px;
+}
+
+.step .el-step__head.is-wait .el-step__icon.is-text {
+    background-color: #dcdcdc;
+}
+
+/* 步骤样式重写 end*/
+
+.el-input{
+	width: auto;
+}
+
+
+
+/*编辑框背景色样式重写*/
+.RedInput .el-input__inner
+{
+ background-color: red;
+ color: white;
+}
+.YellowInput .el-input__inner
+{
+ background-color: yellow;
+}
+
+
+
+
+/*折叠面板头重写*/
+.collapse .el-collapse-item__header
+{
+	background-color:#24999C;
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 600;
+	padding-left: 10px;
+} 
+
+.collapse .el-collapse-item__wrap
+{
+	border: none 0px #dcdcdc;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.collapse .el-collapse-item__content
+{
+	padding-bottom:0px;
+}
+/* 
+.collapse .el-collapse-item__header
+{
+	background-color:white;
+	color: #24999C;
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 600;
+	padding-left: 10px;
+	border-top-style:none;
+	border-bottom: solid 3px #24999C;
+} */
+/* 选择框样式 */
+.selectdv
+{
+background-color: #FFCC66;
+border-radius: 15px;
+color: #fff;
+line-height: 60px;
+min-width: 120px;
+text-align: center;
+display: inline-block;
+border: 1px solid #dcdcdc;
+margin-left: 10px;
+}
+.unselectdv{
+	background-color: #fff;
+	border-radius: 15px;
+color: black;
+    line-height: 60px;
+	min-width: 120px;
+    text-align: center;
+	display: inline-block;
+    border: 1px solid #dcdcdc;
+    margin-left: 10px;
+}

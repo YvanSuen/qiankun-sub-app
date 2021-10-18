@@ -1,0 +1,109 @@
+
+.handle-select {
+    width: 120px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.handle-input {
+    width: 130px;
+    display: inline-block;
+}
+
+.handle-box {
+    margin-bottom: 20px;
+}
+
+.blue .el-form-item__label{
+    color:blue !important;
+}
+
+.table {
+    width: 100%;
+    font-size: 14px;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.table-td-thumb {
+    display: block;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+/*编辑页面的样式*/
+.handle-input-edit{
+    width: 200px;
+}
+
+/* 二级页 标题 样式*/
+.headerTitle {
+    margin-top: -45px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #d5e3ef;
+    font-size: 16px;
+    color: #44bbbb;
+}
+.bottom {
+    padding-top: 5px;
+    border-top: 1px solid #d5e3ef;
+    font-size: 16px;
+    color: #44bbbb;
+}
+
+/* grid 选中样式*/
+.myRowClassUn{
+    background-color:white !important;
+}
+.myRowClass {
+   /*background-color:#409EFF !important;*/
+   background-color:rgb(230, 250, 247) !important;
+}
+
+/* el-switch 样式 */
+.el-switch__label {
+    position: absolute;
+    display: none;
+    font-size: 11px !important;
+    color: #fff!important;
+  }
+  .el-switch__label *{
+    font-size: 11px !important;
+  }
+  /*打开时文字位置设置*/
+  .el-switch__label--right {
+    z-index: 1;
+    top: 0.5px;
+  }
+  /*关闭时文字位置设置*/
+  .el-switch__label--left {
+    z-index: 1;
+    left: 35px; /*这里是重点*/
+    top: 0.5px;
+  }
+  /*显示文字*/
+  .el-switch__label.is-active {
+    display: block;
+  }
+  .el-switch__core {
+    width: 60px !important;
+    height: 22px;
+    border: 2px solid #DCDFE6;
+    border-radius: 13px;
+  }
+ .el-upload--text
+ {
+  height: 34px;
+  width: 80px;
+ }
+
+ /* 页面布局样式 */
+ .el-row {
+    margin-bottom: 5px;
+  }
